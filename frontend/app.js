@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const initialState = document.getElementById('initial-state');
     const aiInsights = document.getElementById('ai-insights');
     const overallSummary = document.getElementById('overall-summary');
-    const activeFiltersContainer = document.getElementById('active-filters-container');
     const pageTitle = document.getElementById('page-title');
     
     const ratingSlider = document.getElementById('min_rating');
@@ -55,8 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             additional_prefs: document.getElementById('additional_prefs').value || ""
         };
 
-        // Render Active Filter Chips dynamically
-        renderFilterChips(payload);
+        // Render Active Filter Chips dynamically (Removed)
 
         try {
             const response = await fetch(`${API_BASE_URL}/api/recommend`, {
@@ -86,49 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    function renderFilterChips(payload) {
-        activeFiltersContainer.innerHTML = '';
-        
-        const filters = [
-            { id: 'location', label: document.getElementById('location').options[document.getElementById('location').selectedIndex].text.split(',')[0], icon: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>' },
-            { id: 'budget', label: payload.budget === 'low' ? '<₹500' : payload.budget === 'high' ? '>₹1500' : '₹501-1500', icon: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2"></circle></svg>' },
-            { id: 'min_rating', label: payload.min_rating + '+', icon: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>' }
-        ];
 
-        if (payload.cuisine) {
-            filters.push({ id: 'cuisine', label: payload.cuisine, icon: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20.5h-3a4 4 0 0 1 -4 -4v-3a5.5 5.5 0 0 0 10 0v3a4 4 0 0 1 -3 4z"></path></svg>' });
-        }
-
-        filters.forEach(filter => {
-            const chip = document.createElement('span');
-            chip.className = 'filter-chip';
-            chip.innerHTML = `
-                ${filter.icon}
-                <span style="text-transform: capitalize;">${filter.label}</span>
-                <button class="chip-close" data-filter="${filter.id}">✕</button>
-            `;
-            activeFiltersContainer.appendChild(chip);
-        });
-
-        // Add event listeners to remove filters dynamically
-        document.querySelectorAll('.chip-close').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                const filterId = e.target.getAttribute('data-filter');
-                if (filterId === 'location') {
-                    document.getElementById('location').value = 'banashankari'; // default reset
-                } else if (filterId === 'cuisine') {
-                    document.getElementById('cuisine').value = '';
-                } else if (filterId === 'min_rating') {
-                    document.getElementById('min_rating').value = 1.0;
-                    document.getElementById('rating-display').textContent = '1.0+';
-                } else if (filterId === 'budget') {
-                    document.querySelector('input[name="budget"][value="medium"]').checked = true; // default reset
-                }
-                // Resubmit form with the updated field
-                form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }));
-            });
-        });
-    }
 
     function renderResults(data, payload) {
         if (!data.recommendations || data.recommendations.length === 0) {
