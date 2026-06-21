@@ -1,0 +1,21 @@
+# Data
+datasets==2.19.0
+pandas==2.2.2
+numpy==1.26.4
+
+# LLM
+groq>=0.11.0
+
+# Config
+python-dotenv==1.0.1
+
+# CLI Output
+rich==13.7.1
+
+# Optional: Web UI
+streamlit==1.35.0
+
+# API
+fastapi>=0.111.0
+uvicorn>=0.30.0
+pydantic>=2.7.4

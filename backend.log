@@ -1,0 +1,328 @@
+2026-06-21 15:43:17,282 [INFO] src.api.main - Loading and preprocessing dataset on startup...
+2026-06-21 15:43:17,760 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation "HTTP/1.1 200 OK"
+2026-06-21 15:43:19,112 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation "HTTP/1.1 200 OK"
+2026-06-21 15:43:21,156 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/revision/5738e9eda2fad49ad51c6e0ed26e761d9b947133 "HTTP/1.1 200 OK"
+2026-06-21 15:43:21,453 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/tree/5738e9eda2fad49ad51c6e0ed26e761d9b947133/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-06-21 15:43:21,863 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/tree/5738e9eda2fad49ad51c6e0ed26e761d9b947133?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-21 15:43:22,213 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/revision/5738e9eda2fad49ad51c6e0ed26e761d9b947133 "HTTP/1.1 200 OK"
+2026-06-21 15:43:24,359 [INFO] src.api.main - Dataset loaded successfully. 15337 records available.
+2026-06-21 15:43:24,408 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 15:43:24,409 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0364s
+2026-06-21 15:43:24,410 [INFO] httpx - HTTP Request: POST http://testserver/api/recommend "HTTP/1.1 200 OK"
+2026-06-21 15:43:24,413 [INFO] src.api.main - Application shutdown.
+2026-06-21 16:20:37,952 [INFO] src.api.main - Loading and preprocessing dataset on startup...
+2026-06-21 16:20:38,453 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation "HTTP/1.1 200 OK"
+2026-06-21 16:20:39,648 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation "HTTP/1.1 200 OK"
+2026-06-21 16:20:41,636 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/revision/5738e9eda2fad49ad51c6e0ed26e761d9b947133 "HTTP/1.1 200 OK"
+2026-06-21 16:20:41,906 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/tree/5738e9eda2fad49ad51c6e0ed26e761d9b947133/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-06-21 16:20:42,150 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/datasets/ManikaSaini/zomato-restaurant-recommendation/tree/5738e9eda2fad49ad51c6e0ed26e761d9b947133?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-21 16:20:44,554 [INFO] src.api.main - Dataset loaded successfully. 15337 records available.
+2026-06-21 16:20:48,679 [INFO] src.api.main - GET / - Status: 200 - Time: 0.2003s
+2026-06-21 16:20:48,743 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0070s
+2026-06-21 16:20:48,746 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0070s
+2026-06-21 16:20:49,956 [INFO] src.api.main - GET /favicon.ico - Status: 404 - Time: 0.0015s
+2026-06-21 16:28:44,721 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0214s
+2026-06-21 16:28:44,842 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0036s
+2026-06-21 16:28:44,849 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0017s
+2026-06-21 16:28:47,364 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0079s
+2026-06-21 19:18:44,068 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0246s
+2026-06-21 19:18:44,176 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0187s
+2026-06-21 19:18:44,178 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0163s
+2026-06-21 19:27:23,511 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0043s
+2026-06-21 19:27:23,577 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0044s
+2026-06-21 19:27:23,581 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0063s
+2026-06-21 19:28:10,304 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0030s
+2026-06-21 19:28:10,360 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0031s
+2026-06-21 19:28:43,370 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0040s
+2026-06-21 19:28:43,406 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0010s
+2026-06-21 19:28:43,423 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0032s
+2026-06-21 19:35:05,456 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0021s
+2026-06-21 19:35:05,515 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0067s
+2026-06-21 19:35:05,516 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0059s
+2026-06-21 19:36:25,413 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0020s
+2026-06-21 19:36:25,440 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0030s
+2026-06-21 19:36:25,454 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0066s
+2026-06-21 19:36:31,261 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0020s
+2026-06-21 19:37:01,201 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:37:01,205 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.1730s
+2026-06-21 19:37:08,519 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0021s
+2026-06-21 19:38:06,242 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0020s
+2026-06-21 19:38:06,295 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0020s
+2026-06-21 19:38:06,318 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0015s
+2026-06-21 19:38:06,363 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 19:38:09,594 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:38:09,596 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0493s
+2026-06-21 19:39:15,904 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0019s
+2026-06-21 19:39:15,943 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0025s
+2026-06-21 19:39:15,953 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0035s
+2026-06-21 19:39:16,037 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0010s
+2026-06-21 19:39:28,283 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 19:39:37,758 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:39:37,760 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0519s
+2026-06-21 19:42:32,355 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0020s
+2026-06-21 19:42:32,387 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0085s
+2026-06-21 19:42:32,394 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0129s
+2026-06-21 19:42:36,223 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:42:36,224 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0454s
+2026-06-21 19:42:39,601 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:42:39,602 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0494s
+2026-06-21 19:42:42,377 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:42:42,378 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0429s
+2026-06-21 19:42:45,236 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:42:45,237 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0397s
+2026-06-21 19:42:47,066 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:42:47,068 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0417s
+2026-06-21 19:42:52,148 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0005s
+2026-06-21 19:43:15,148 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0016s
+2026-06-21 19:43:15,244 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0010s
+2026-06-21 19:43:19,789 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:43:19,790 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0462s
+2026-06-21 19:48:10,907 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0026s
+2026-06-21 19:48:10,986 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0015s
+2026-06-21 19:48:10,995 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0020s
+2026-06-21 19:48:11,025 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 19:48:33,875 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:48:33,928 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 2.4866s
+2026-06-21 19:48:39,517 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0010s
+2026-06-21 19:48:42,381 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0010s
+2026-06-21 19:48:42,469 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 19:48:46,278 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:48:46,287 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.5022s
+2026-06-21 19:48:53,136 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:48:53,140 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.2245s
+2026-06-21 19:49:01,412 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 19:49:01,419 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-06-21 19:49:10,292 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:49:10,295 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 9.2444s
+2026-06-21 19:49:25,911 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:49:25,930 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.2058s
+2026-06-21 19:52:20,468 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0015s
+2026-06-21 19:52:20,473 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0005s
+2026-06-21 19:52:22,564 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0020s
+2026-06-21 19:52:22,627 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0015s
+2026-06-21 19:52:22,666 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 19:52:31,440 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:52:31,445 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 7.2324s
+2026-06-21 19:52:39,029 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:52:39,035 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 7.4197s
+2026-06-21 19:53:12,398 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0015s
+2026-06-21 19:53:12,495 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 19:53:28,591 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:53:28,598 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.1520s
+2026-06-21 19:53:34,848 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:53:34,867 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 3.8184s
+2026-06-21 19:54:43,783 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0011s
+2026-06-21 19:54:45,274 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0113s
+2026-06-21 19:54:49,109 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0010s
+2026-06-21 19:54:52,462 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0010s
+2026-06-21 19:54:52,495 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0020s
+2026-06-21 19:55:02,309 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:55:02,310 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0453s
+2026-06-21 19:55:05,583 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:55:05,585 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0461s
+2026-06-21 19:55:11,263 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:55:11,268 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.2065s
+2026-06-21 19:55:30,295 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:55:30,298 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 5.5627s
+2026-06-21 19:55:34,947 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:55:35,297 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 19:55:35,298 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-06-21 19:55:48,147 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:55:48,148 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 17.8482s
+2026-06-21 19:55:48,151 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 17.8485s
+2026-06-21 19:55:50,638 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 19:55:50,638 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-06-21 19:56:07,044 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:56:07,048 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 18.8959s
+2026-06-21 19:56:34,101 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0026s
+2026-06-21 19:56:34,170 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0035s
+2026-06-21 19:56:41,872 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:56:41,877 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.7790s
+2026-06-21 19:56:44,001 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:56:44,020 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.2439s
+2026-06-21 19:57:02,910 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:57:02,916 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 3.7845s
+2026-06-21 19:57:38,446 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0029s
+2026-06-21 19:57:38,508 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0041s
+2026-06-21 19:57:38,540 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0219s
+2026-06-21 19:57:42,740 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:57:42,768 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.3971s
+2026-06-21 19:57:45,241 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:57:45,248 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.6198s
+2026-06-21 19:57:47,084 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:57:47,112 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.8597s
+2026-06-21 19:57:47,444 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 19:57:47,446 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-06-21 19:57:52,597 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 19:57:52,600 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-06-21 19:58:01,323 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:58:01,337 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 14.2241s
+2026-06-21 19:59:10,294 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 19:59:10,308 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.7486s
+2026-06-21 19:59:35,039 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:35,040 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0450s
+2026-06-21 19:59:41,299 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:41,301 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0464s
+2026-06-21 19:59:42,394 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:42,395 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0538s
+2026-06-21 19:59:42,927 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:42,928 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0491s
+2026-06-21 19:59:43,149 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:43,151 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0501s
+2026-06-21 19:59:43,389 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:43,390 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0531s
+2026-06-21 19:59:43,974 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:43,975 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0405s
+2026-06-21 19:59:45,858 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0010s
+2026-06-21 19:59:45,907 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0010s
+2026-06-21 19:59:48,208 [INFO] src.api.main - No restaurants found matching criteria. Returning empty results.
+2026-06-21 19:59:48,209 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.0455s
+2026-06-21 20:00:09,154 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0010s
+2026-06-21 20:00:09,209 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0025s
+2026-06-21 20:00:09,220 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0023s
+2026-06-21 20:00:09,228 [INFO] src.api.main - GET /.well-known/appspecific/com.chrome.devtools.json - Status: 404 - Time: 0.0000s
+2026-06-21 20:00:14,489 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:14,494 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.4112s
+2026-06-21 20:00:23,321 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:23,330 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 5.7062s
+2026-06-21 20:00:25,271 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:25,275 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.9388s
+2026-06-21 20:00:27,475 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:31,987 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:31,995 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 8.6502s
+2026-06-21 20:00:31,996 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 8.6503s
+2026-06-21 20:00:35,392 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:00:35,393 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-06-21 20:00:47,091 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:47,092 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 21.8167s
+2026-06-21 20:00:47,793 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:00:47,795 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-06-21 20:00:53,993 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:00:53,995 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-06-21 20:00:56,106 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:00:56,109 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 24.1091s
+2026-06-21 20:01:04,169 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0015s
+2026-06-21 20:01:04,216 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0079s
+2026-06-21 20:01:04,219 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0077s
+2026-06-21 20:01:14,164 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:01:14,165 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.6542s
+2026-06-21 20:04:50,436 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0025s
+2026-06-21 20:04:50,529 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0255s
+2026-06-21 20:04:50,533 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0062s
+2026-06-21 20:04:56,141 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:04:56,145 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 2.7335s
+2026-06-21 20:05:21,428 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:05:21,431 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.9009s
+2026-06-21 20:05:39,549 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:05:39,555 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.3525s
+2026-06-21 20:07:12,134 [INFO] src.api.main - Application shutdown.
+2026-06-21 20:07:16,692 [INFO] src.api.main - Loading and preprocessing dataset on startup...
+2026-06-21 20:07:18,358 [INFO] src.api.main - Dataset loaded successfully. 15337 records available.
+2026-06-21 20:08:17,722 [INFO] src.api.main - GET / - Status: 200 - Time: 0.1466s
+2026-06-21 20:08:17,786 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0040s
+2026-06-21 20:08:17,789 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0056s
+2026-06-21 20:08:25,865 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:08:25,904 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.5000s
+2026-06-21 20:08:27,983 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:08:27,986 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.0003s
+2026-06-21 20:09:15,415 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:09:15,419 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.4684s
+2026-06-21 20:10:47,894 [INFO] src.api.main - Application shutdown.
+2026-06-21 20:10:50,830 [INFO] src.api.main - Loading and preprocessing dataset on startup...
+2026-06-21 20:10:52,185 [INFO] src.api.main - Dataset loaded successfully. 15337 records available.
+2026-06-21 20:11:01,634 [INFO] src.api.main - Application shutdown.
+2026-06-21 20:11:04,345 [INFO] src.api.main - Loading and preprocessing dataset on startup...
+2026-06-21 20:11:05,744 [INFO] src.api.main - Dataset loaded successfully. 15337 records available.
+2026-06-21 20:11:28,929 [INFO] src.api.main - Application shutdown.
+2026-06-21 20:11:31,456 [INFO] src.api.main - Loading and preprocessing dataset on startup...
+2026-06-21 20:11:32,721 [INFO] src.api.main - Dataset loaded successfully. 15337 records available.
+2026-06-21 20:12:10,183 [INFO] src.api.main - GET / - Status: 200 - Time: 0.1555s
+2026-06-21 20:12:10,224 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0051s
+2026-06-21 20:12:10,227 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0053s
+2026-06-21 20:12:14,057 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:12:14,184 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 2.1681s
+2026-06-21 20:12:15,794 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:12:15,797 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.1540s
+2026-06-21 20:12:21,801 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:12:21,804 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.2720s
+2026-06-21 20:12:29,509 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:12:29,515 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.7795s
+2026-06-21 20:12:33,442 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:12:33,443 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2026-06-21 20:12:46,814 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:12:46,818 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 17.3004s
+2026-06-21 20:12:50,224 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:12:50,225 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-06-21 20:13:05,325 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:13:06,106 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:13:06,107 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 17.000000 seconds
+2026-06-21 20:13:26,090 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:13:26,091 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 56.5705s
+2026-06-21 20:13:26,092 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 56.5715s
+2026-06-21 20:13:50,229 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0010s
+2026-06-21 20:13:50,286 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0058s
+2026-06-21 20:13:50,289 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0068s
+2026-06-21 20:14:50,750 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:14:50,756 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.2359s
+2026-06-21 20:14:53,524 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:14:53,527 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 1.1731s
+2026-06-21 20:16:08,787 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:16:08,793 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 9.6102s
+2026-06-21 20:16:12,327 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:16:14,103 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:16:16,918 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:16:18,551 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:16:18,553 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2026-06-21 20:16:37,047 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:16:37,933 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:16:37,934 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-06-21 20:16:53,320 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:16:53,921 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:16:53,922 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-06-21 20:17:15,531 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:17:15,533 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 66.7256s
+2026-06-21 20:17:15,534 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 66.7256s
+2026-06-21 20:17:15,534 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 66.7236s
+2026-06-21 20:17:15,535 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 66.7114s
+2026-06-21 20:17:15,535 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 66.7103s
+2026-06-21 20:17:15,536 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 66.7056s
+2026-06-21 20:17:19,887 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:17:19,888 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-06-21 20:17:31,935 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:17:32,903 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:17:32,906 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2026-06-21 20:17:47,097 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:17:47,709 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:17:47,710 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 17.000000 seconds
+2026-06-21 20:18:10,075 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:18:10,105 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 54.5661s
+2026-06-21 20:18:10,108 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 54.5691s
+2026-06-21 20:18:10,111 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 54.5706s
+2026-06-21 20:18:11,170 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:18:11,171 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-06-21 20:18:23,719 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:18:23,723 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 13.6080s
+2026-06-21 20:18:25,160 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:18:25,161 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-06-21 20:18:30,557 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:18:30,558 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-21 20:18:34,608 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:18:34,611 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 10.8879s
+2026-06-21 20:18:39,030 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-21 20:18:39,033 [INFO] groq._base_client - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-06-21 20:18:52,739 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:18:52,741 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 18.1289s
+2026-06-21 20:19:32,444 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0040s
+2026-06-21 20:19:32,493 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0030s
+2026-06-21 20:19:32,495 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0040s
+2026-06-21 20:19:43,136 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:19:43,141 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 4.8230s
+2026-06-21 20:22:48,209 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:22:48,212 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.8247s
+2026-06-21 20:22:51,735 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:22:51,739 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 0.9708s
+2026-06-21 20:24:10,281 [INFO] src.api.main - GET / - Status: 200 - Time: 0.0021s
+2026-06-21 20:24:10,327 [INFO] src.api.main - GET /style.css - Status: 200 - Time: 0.0041s
+2026-06-21 20:24:10,330 [INFO] src.api.main - GET /app.js - Status: 200 - Time: 0.0044s
+2026-06-21 20:24:20,239 [INFO] httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 20:24:20,245 [INFO] src.api.main - POST /api/recommend - Status: 200 - Time: 7.6239s
