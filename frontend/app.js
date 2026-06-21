@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     document.getElementById('min_rating').value = 1.0;
                     document.getElementById('rating-display').textContent = '1.0+';
                 } else if (filterId === 'budget') {
-                    document.querySelector('input[name="budget"][value="high"]').checked = true; // default reset
+                    document.querySelector('input[name="budget"][value="medium"]').checked = true; // default reset
                 }
                 // Resubmit form with the updated field
                 form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }));
