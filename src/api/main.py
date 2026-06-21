@@ -38,8 +38,7 @@ async def lifespan(app: FastAPI):
     global clean_df
     logger.info("Loading and preprocessing dataset on startup...")
     try:
-        raw_df = load_raw_dataset()
-        clean_df = preprocess(raw_df)
+        clean_df = load_raw_dataset()
         logger.info(f"Dataset loaded successfully. {len(clean_df)} records available.")
     except Exception as e:
         logger.error(f"Failed to load dataset: {e}", exc_info=True)
