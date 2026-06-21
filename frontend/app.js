@@ -1,7 +1,7 @@
 // Set this to your Railway backend URL when deploying
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
     ? '' // Use relative path for local development (FastAPI serves both)
-    : 'https://your-railway-app.up.railway.app'; // Replace with actual Railway URL
+    : 'https://web-production-403ba.up.railway.app'; // Actual Railway URL
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('recommendation-form');
